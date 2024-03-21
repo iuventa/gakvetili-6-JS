@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Template</title>
+</head>
+<body>
+    <header class="flex">
+        <div id="switch" onclick="ragaca()"><i class="fa-solid fa-toggle-off"></i></div> 
+        <!-- <i class="fa-solid fa-toggle-on"></i> -->
+    </header>
+    <main>
+        <p class="gamosaxuleba" id="gamosaxuleba"></p>
+        <div class="calculator">
+            <div class="calcHead">
+                <p id="answer" class="answer">0</p>
+            </div>
+            <div class="calcMain flex">
+                <p onclick="ac()" class="flex button grey">A&#x2f;C</p>
+                <p onclick="plsmns()" class="flex button grey">&#xb1;</p>
+                <p onclick="operator(this)" class="flex button grey">&#x25;</p>
+                <p onclick="operator(this)" class="flex button orange">&#xf7;</p>
+                <p onclick="calc(this)" class="flex button ricxvi">7</p>
+                <p onclick="calc(this)" class="flex button ricxvi">8</p>
+                <p onclick="calc(this)" class="flex button ricxvi">9</p>
+                <p onclick="operator(this)" class="flex button orange">&#xd7;</p>
+                <p onclick="calc(this)" class="flex button ricxvi">4</p>
+                <p onclick="calc(this)" class="flex button ricxvi">5</p>
+                <p onclick="calc(this)" class="flex button ricxvi">6</p>
+                <p onclick="operator(this)" class="flex button orange">&#x2212;</p>
+                <p onclick="calc(this)" class="flex button ricxvi">1</p>
+                <p onclick="calc(this)" class="flex button ricxvi">2</p>
+                <p onclick="calc(this)" class="flex button ricxvi">3</p>
+                <p onclick="operator(this)" class="flex button orange">&#x2b;</p>
+                <p onclick="calc(this)" class="flex button ricxvi zero">0</p>
+                <p onclick="calc(this)" class="flex button ricxvi">&#x2c;</p>
+                <p onclick="equal()" class="flex button orange">&#x3d;</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- am gverds footer ar aqvs -->
+    </footer>
+
+    <script src="https://kit.fontawesome.com/389a230baf.js" crossorigin="anonymous"></script>
+
+    <script src="js/switch.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/calc.js"></script>
+    <script src="js/plsmns.js"></script>
+    <script src="js/operator.js"></script>
+    <script src="js/ac.js"></script>
+    <script src="js/equal.js"></script>
+</body>
+</html>
